@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Mostootriad-55.exe" version="1.0.25.2" publicKeyToken="b3698bafbc3f98d5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="mo55.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Mostootriad-55" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Mostootriad-55.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="asprise-scan-scanner-twain-wia-api.dll" size="206848">
+      <assemblyIdentity name="asprise-scan-scanner-twain-wia-api" version="12.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UOYEYRGwNR6VdgkGHGev+iCnAujsWRJXJbciVOgTWNM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mostootriad-55.exe" size="4304880">
+      <assemblyIdentity name="Mostootriad-55" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Sp0jH8D2lM1c5EN/89GgvSm0AOI3gpf18J+0Cfq8+eU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfSharp.dll" size="581632">
+      <assemblyIdentity name="PdfSharp" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wxigZm5aAwUruzKkf/cB9VBYtjYh7UcnVJEG+R0XZ38=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfSharp.Charting.dll" size="94208">
+      <assemblyIdentity name="PdfSharp.Charting" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0eigG0ynYMwODSPmc/8ILEDo3QiilqS8OR7cVKRBwvs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PdfSharp.Charting.resources.dll" size="4608">
+      <assemblyIdentity name="PdfSharp.Charting.resources" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsWPG3XpLdwV8ut6PEzgHe07YHd1BCFcCEel3X5WGvc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\PdfSharp.resources.dll" size="5120">
+      <assemblyIdentity name="PdfSharp.resources" version="1.32.3057.0" publicKeyToken="F94615AA0424F9EB" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5e4ncMy4a8PPYVRsNJBdHjlpfkuUtJW1j25iS42e/eE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="asprise_imaging.dll" size="3197440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jnGfkLfVz4C83U7Yyi6UxiR1FLd33IzR/XvLnx/M94Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="asprise_imaging_x64.dll" size="5223936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zaEzGTiKmjp4LRYr0E1Ec4vhr4D8tifHxLDTudNDy3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="config.txt" size="77">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yflz4kSgkq28fm/UzLSvB8UWjyf9uYTB+bIt9pQlIGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mo55.ico" size="9662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AvQKxa6sJq5Hkk5I2UM8TPC9Jn70eG8Dm/JELkD7bA0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Mostootriad-55.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ReadMe-AspriseScan.txt" size="1892">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lVAIWBVSd17gBHmWU6NFUYyCIkOBMDmqjDENWz0CLM0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\asprise.ico" size="7406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zdY/bPZSNp9qaIuNZTRw4BgYKMB2DM6TjcqsaV4R3QQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\disable_company.png" size="40613">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Dxh4qJaWPYuAbu6T+eez3A3Xc8qvW7jRzNnUsSthkk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\enabled_company.png" size="51031">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lLCJFlQ1cWXnMl+1PJV5z9gnjWTLW9DpwEn/LjQQHMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Image1.png" size="9757">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uRuiGS7og4Uhno9eXt5VfEZkpnGFpuf36kxUam5cu1Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ITASM\Меснянкин Алексей" issuerKeyHash="c8e6521bb3012279a09224ce1ec74cded68fa830" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+z07d0Fzmwpm3PAfzHuCYkzf8rKRCjobayDmrIUbl7c=</DigestValue></Reference></SignedInfo><SignatureValue>IZxA0DmD6LrpWFd94Hq9uXyvFu38ZYZ3nPAlK++R77iQKM0XUj8k5no8Rplaem49PE8s0PbzA6QOOjTNQ6mblq1mdSfnW4j7q09mdjOmfpkVt8zBzOPUkx5SW+4xYF/gWdrAkjdLFFET+zQyb4KWGvXv+qYMFvX5Cx8jdNyV/Gs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>237+ckmG/LFrRZAPygrpa3RJYeItsOgDKguYCE6Yovn+PiYh8e9+zvFSUIJa/vvUiIMWel3B5jyoNByS5qZICjrcOz4zBmAZckCdr3ySYmufwoiqyL9woV8iu6JTpXHIVl7C1Jdg8xR8AcGF9dnc3E7InMofr7mXiVRhsyul5Sk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b7971b85ace6206b1b3a0a91b2f2df4c62827bcc1ff0dc660a9b7341773b3dfb" Description="" Url=""><as:assemblyIdentity name="Mostootriad-55.exe" version="1.0.25.2" publicKeyToken="b3698bafbc3f98d5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ITASM\Меснянкин Алексей</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>thGxb2bz84Bmi9fI1BFYeiy1n87PkZ6zRZ74jeU5/eo=</DigestValue></Reference></SignedInfo><SignatureValue>HRkrUL3NBqJVDZoev1h55jdX6yOTBVMJw6/A9YlKuF8RjA0PiX7It86RXd0V0tsNmoHl0y9qWFuxaR9hhHFDcXN4SauenGgRODzL+sqfpAf4LI7WMWtgVZFu27z8Q477d+vouPqcfUMQi6SIug11bqPnjbylR1Z5F+MJ6hZsly0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>237+ckmG/LFrRZAPygrpa3RJYeItsOgDKguYCE6Yovn+PiYh8e9+zvFSUIJa/vvUiIMWel3B5jyoNByS5qZICjrcOz4zBmAZckCdr3ySYmufwoiqyL9woV8iu6JTpXHIVl7C1Jdg8xR8AcGF9dnc3E7InMofr7mXiVRhsyul5Sk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQKchurf+PL4JKzd9B4vbx8TANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ASQBUAEEAUwBNAFwEHAQ1BEEEPQRPBD0EOgQ4BD0AIAQQBDsENQQ6BEEENQQ5MB4XDTE4MDIxMzE0NDUxN1oXDTE5MDIxMzIwNDUxN1owOTE3MDUGA1UEAx4uAEkAVABBAFMATQBcBBwENQRBBD0ETwQ9BDoEOAQ9ACAEEAQ7BDUEOgRBBDUEOTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA237+ckmG/LFrRZAPygrpa3RJYeItsOgDKguYCE6Yovn+PiYh8e9+zvFSUIJa/vvUiIMWel3B5jyoNByS5qZICjrcOz4zBmAZckCdr3ySYmufwoiqyL9woV8iu6JTpXHIVl7C1Jdg8xR8AcGF9dnc3E7InMofr7mXiVRhsyul5SkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBc8NIILdc9cE25Hk8uBcxSqXsfr8W8qFNLbBnMJIbpAT7Vz0JKB5wyVFUPdb2km8P7p+/JANdngk9EEcpfTYCjCHSvfSvIJGOycY4LM7vSseFPc5hJ8dCRpKwKcaKgUPxa8LagKrOQFXPfdYaj1rRn9oCggjOkubLOgp3QTVR09w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
